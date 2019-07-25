@@ -1,0 +1,150 @@
+@import 'vars';
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width: 1200px) {
+    .header-bottom {
+        font-size: 14px;
+    }
+    #s {
+        &-gallery, &-review, &-partners, &-menu {
+            padding: 8% 0 11%;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-bottom {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .gallery__content {
+        text-align: center;
+    }
+
+    .callback__btn {
+        .button-gold {
+            padding: 12px 45px;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery__content {
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .callback {
+        padding: 13% 0;
+    }
+
+    .text-sm-center {
+        text-align: center;
+    }
+
+    iframe {
+        min-height: 500px;
+    }
+    .social-footer {
+        margin: 0;
+    }
+    .footer__logo+p {
+        margin-bottom: 0;
+    }
+    .footer__adress .footer__phone {
+        font-size: 22px;
+        .fas {
+            margin-top: 7px;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .welcome {
+        .h1 {
+            font-size: 38px;
+        }
+        p span {
+            font-size: 12px;
+        }
+    }
+    .header-composition {
+        p {
+            font-size: 14px;
+        }
+        .button {
+            padding: 12px 36px;
+            font-size: 12px;
+        }
+    }
+
+    .text-xs-center {
+        text-align: center;
+    }
+
+    .header-bottom {
+        font-size: 14px;
+    }
+
+    .quotes {
+        display: none;
+    }
+
+    .partners {
+        .owl-nav {
+            >button {
+                &.owl-prev {
+                    left: 0;
+                }
+                &.owl-next {
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    .footer__menu {
+        padding-left: 20px;
+    }
+
+    .footer__adress {
+        margin-bottom: 5px;
+        .fas {
+            display: none;
+        }
+        .footer__phone {
+            display: none;
+        }
+    }
+}
+
+// @media only screen and (max-width: 320px) {
+    
+// }
+
+
+/*==========  Mobile First  ==========*/
+
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

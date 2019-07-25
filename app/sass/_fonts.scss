@@ -1,0 +1,30 @@
+// 100 Extra Light or Ultra Light;
+// 200 Light or Thin; 300 Book or Demi;
+// 400 Regular or Normal;
+// 500 Medium;
+// 600 Semibold or Demibold;
+// 700 Bold;
+// 800 Black or Extra Bold or Heavy;
+// 900 Extra Black or Fat or Ultra Black
+
+
+@mixin font($f-name, $f-style, $f-weight, $f-url)
+{
+	@font-face {
+		font-family: $f-name;
+		font-style: $f-style;
+		font-weight: $f-weight;
+		src: url($f-url) format('woff2');
+	}
+}
+
+
+@include font("raleway", normal, 400, "../fonts/RalewayRegular/RalewayRegular.woff");
+@include font("raleway", normal, bold, "../fonts/RalewayBold/RalewayBold.woff");
+@include font("raleway", normal, 800, "../fonts/RalewayExtraBold/RalewayExtraBold.woff");
+@include font("raleway", normal, 300, "../fonts/RalewayLight/RalewayLight.woff");
+@include font("raleway", normal, 600, "../fonts/RalewaySemiBold/RalewaySemiBold.woff");
+@include font("raleway", normal, 100, "../fonts/RalewayThin/RalewayThin.woff");
+@include font("firasans", normal, 400, "../fonts/FiraSansRegular/FiraSansRegular.woff");
+@include font("elmessiri", normal, 400, "../fonts/ElMessiri/ElMessiri-Regular.woff");
+@include font("fontawesome", normal, 400, "../fonts/fontawesome/fontawesome-webfont.woff");
