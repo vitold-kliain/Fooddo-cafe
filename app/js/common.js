@@ -6,7 +6,9 @@ $(function () {
 			title: '<img src="img/logo-1.svg" alt = "Fooddo cafe">'
 		},
 		onClick: {
-			close: true
+			close: true,
+			preventDefault : false
+
 		}
 	});
 	var api = $('#my-menu').data('mmenu');
