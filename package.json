@@ -1,12 +1,12 @@
 {
-	"name": "optimizedhtml",
-	"version": "5.0.0",
-	"description": "OptimizedHTML 5 - Start HTML Template",
+	"name": "Fooddo",
+	"version": "1.0.0",
+	"description": "Fooddo cafe",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "WebDesign Master",
+	"author": "vitold-kliain",
 	"license": "ISC",
 	"devDependencies": {
 		"bootstrap": "^4.3.1",
